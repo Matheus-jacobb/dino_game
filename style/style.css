@@ -1,21 +1,21 @@
 body{
-    background: #fafafa;
+    background: #3898d0;
 }
 
-.dino{
-    width: 60px;
-    height: 60px;
-    background-image: url(/img/dino.png);
+.player{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/naruto.png);
     position: absolute;
     bottom:0px;
 }
 
-.cactus{ 
-    width: 60px;
+.obstacle{ 
+    width: 120px;
     height: 60px;
     position: absolute;
     bottom:0px;
-    background-image: url(/img/cactus.png);
+    background-image: url(/img/rock-obstacle.png);
 }
 
 .endgame{
@@ -26,6 +26,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .game-over{
@@ -56,10 +57,10 @@ body{
 .background{
     position: absolute;
     bottom:0;
-    background-image: url(/img/background.png);
+    background-image: url(/img/naruto-background.jpg);
     background-repeat: repeat-x;
     animation: slideright 2500s infinite linear;
     -webkit-animation: slideright 2500s infinite linear;
     width: 100%;
-    height: 200px;
+    height: 400px;
 }
